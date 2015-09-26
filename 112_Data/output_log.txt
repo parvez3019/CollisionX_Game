@@ -1,0 +1,63 @@
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     32 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\WorkSpace\Unity\collisionnew\112_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\WorkSpace\Unity\collisionnew\112_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\WorkSpace\Unity\collisionnew\112_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\WorkSpace\Unity\collisionnew\112_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\WorkSpace\Unity\collisionnew\112_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\WorkSpace\Unity\collisionnew\112_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.063 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 19.927797 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 116.
+Total: 0.642291 ms (FindLiveObjects: 0.009183 ms CreateObjectMapping: 0.009183 ms MarkObjects: 0.070225 ms  DeleteObjects: 0.010803 ms)
+
+Platform assembly: D:\WorkSpace\Unity\collisionnew\112_Data\Managed\Boo.Lang.dll (this message is harmless)
+rightWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+topWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+bottomWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+leftWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+bottomWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+bottomWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+rightWall
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Ball1(Clone)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.321956 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 99.
+Total: 0.670382 ms (FindLiveObjects: 0.008102 ms CreateObjectMapping: 0.009183 ms MarkObjects: 0.076707 ms  DeleteObjects: 0.022688 ms)
+
