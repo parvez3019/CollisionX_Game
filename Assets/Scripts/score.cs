@@ -14,50 +14,37 @@ public class score : MonoBehaviour {
 	// Use this for initialization
 	IEnumerator Start () 
 	{
-				if (Application.loadedLevel == 1) {
-						playerScore = 0;
-					//yield  return new WaitForSeconds(3.0f);
-						while(true) {
-								yield return new WaitForSeconds(0.5f);
-								playerScore++;
-						}
-	
+		if (Application.loadedLevel == 1) {
+				playerScore = 0;
+			//yield  return new WaitForSeconds(3.0f);
+				while(true) {
+						yield return new WaitForSeconds(0.5f);
+						playerScore++;
 				}
-
-			if (Application.loadedLevel==2){
-				highscore = PlayerPrefs.GetInt("highscore");
-			
-				text_score = GameObject.Find("score").GetComponent<GUIText>();
-			
-			
-				text_score.text=(playerScore).ToString ();
-			
-			
-				if(playerScore>highscore)
-				{
-					highscore=playerScore;
-					PlayerPrefs.SetInt("highscore", highscore); // The first is the string name that refers to the saved score, the second is your score variable (int)
-					PlayerPrefs.Save();
-				}
-				text_hscore = GameObject.Find("highscore").GetComponent<GUIText>();
-				text_hscore.text="HighScore : "+ (highscore).ToString ();
-				Debug.Log("postingscore");
-				PostScores(playerScore);
-				
-
-
-			}
-
 		}
-		
 
+		if (Application.loadedLevel==2){
+			highscore = PlayerPrefs.GetInt("highscore");
+			text_score = GameObject.Find("score").GetComponent<GUIText>();			
+			text_score.text=(playerScore).ToString ();
+			if(playerScore>highscore){
+				highscore=playerScore;
+				PlayerPrefs.SetInt("highscore", highscore); // The first is the string name that refers to the saved score, the second is your score variable (int)
+				PlayerPrefs.Save();
+			}
+			text_hscore = GameObject.Find("highscore").GetComponent<GUIText>();
+			text_hscore.text="HighScore : "+ (highscore).ToString ();
+			Debug.Log("postingscore");
+			PostScores(playerScore);
+		}
+
+	}
+		
 	void Update(){
-	
 		if(Application.loadedLevel==1){
 			GetComponent<GUIText>().text =  (playerScore).ToString ();
 		}
 	}
-
 
 	public void PostScores(int playerScore)
 	{

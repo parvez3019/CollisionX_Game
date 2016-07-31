@@ -1,5 +1,6 @@
 ﻿#pragma strict
 
+// Script for Bounce behaviour of the ball
 
 function Start () {
 	var randomNumber = Random.Range(0, 5);

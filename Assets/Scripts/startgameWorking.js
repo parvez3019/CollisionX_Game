@@ -1,16 +1,19 @@
 ﻿#pragma strict 
+
 public var position: Vector3;
 public var gm1 : GameObject;
 public var gm2 : GameObject;
 public var gm3 : GameObject;
 public var gm4 : GameObject;
+
 var temps ;
+
 static var click : int;
+
 function start () {
 	  Cursor.visible = true;
 	  click=0;
 }
-
 
 function OnMouseDown () {		
 	click++;

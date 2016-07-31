@@ -1,7 +1,8 @@
 ﻿#pragma strict
 
-var  mainCam : Camera;
+// Main Gaime script 
 
+var  mainCam : Camera;
 var topWall : BoxCollider2D;
 var bottomWall : BoxCollider2D;
 var leftWall : BoxCollider2D;
@@ -15,9 +16,7 @@ var toggleimg = false;
 
 function Start() {
 //	TimerStart();
-
 	AudioListener.volume = 1.0f;
-	
 	var newBall1Pos = new Vector2 (mainCam.ScreenToWorldPoint(new Vector3(0f, 0f, 0f)).x + 0.6f,
 	mainCam.ScreenToWorldPoint (new Vector3 ( 0f, Screen.height, 0f)).y - 0.6f);
 	var newBall1 : GameObject = Instantiate(EnemyBall, newBall1Pos, transform.rotation);

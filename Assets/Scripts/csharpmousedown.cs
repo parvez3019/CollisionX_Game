@@ -2,10 +2,7 @@
 using System.Collections;
 
 public class csharpmousedown : MonoBehaviour {
-	void OnClick ()
-	{
+	void OnClick (){
 		Application.LoadLevel ("scene");
 	}
-
-
 }
